@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadena Mas Larga</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <script src="index.js"></script>
+    <nav>
+
+    </nav>
+
+    <section>
+        <div class="enunciado">
+
+            <h1>EJERCICIO PUNTO EN CIRCULO</h1>
+            <p class="instruccion"> En este ejercicio tienes que hacer una función, la cual dados el radio de un círculo con centro en el (0,0) y el punto (x,y) determine si el punto se encuentra dentro del círculo imprimiendo la respuesta.
+            </p>
+        </div>
+        <div class="solucion">
+            <p class="respuesta" id="Respuesta" onclick="borrar()"></p>
+            <img class="duende" src="https://images.vexels.com/media/users/3/149858/isolated/preview/ba6eac6603698bbf1edef87954909f39-dibujos-animados-de-salto-de-duende-feliz.png" alt="duende">
+            <textarea id="radio" type="text" class="input" placeholder="Radio"></textarea>
+            <textarea id="xFixed" type="text" class="input" placeholder="Ingresa la coordenada en x"></textarea>
+            <textarea id="yFixed" type="text" class="input" placeholder="Ingresa la coordenada en y"></textarea>
+            <div class=Botones>
+            <button type="button" class="cambiarOrigen" onclick="cambiarOrigen()">Cambiar Origen</button>
+            <button type="button" class="enviar" onclick="puntoEnCirculo()">Enviar</button>
+            <button class="borrar" type="button" onclick="borrar()">Borrar</button>
+        </div>
+        </div>
+    </section>
+</body>
+</html>

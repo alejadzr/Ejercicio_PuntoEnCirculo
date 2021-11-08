@@ -1,0 +1,80 @@
+body{
+    background: #0b3d7780;
+    font-family: 'Press Start 2P', cursive;
+}
+
+
+section .enunciado h1 {
+    margin-top: 55px;
+    text-align: center;
+    font-size: 30px;
+    color: #FFA15C;
+}
+section .enunciado .instruccion {
+
+    width: vw;
+    color:#d7fd00bb;
+    text-align: center;
+    margin-top: 85px;
+    margin-bottom: 65px;
+    margin-left: 45px;
+    margin-right: 45px;
+
+}
+
+section .solucion{
+
+display:flex;
+direction: row;
+justify-content: center;
+gap: 40px;
+}
+
+section .solucion .respuesta{
+    width: 250px;
+    color: #ff7c8dfa;
+    align-self: center;
+}
+
+section .duende{
+    width: 220px;
+    height: 220px;
+
+}
+section .input{
+
+    font-family: inherit;
+    height: 220px;
+    width: 220px;
+    font-size: 10px;
+
+
+
+}
+
+section .textarea::placeholder{
+    position: absolute;
+    top: 2px;
+
+}
+
+section .Botones{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    font-size: 23px;
+
+
+}
+
+section .Botones > button{
+    background:#FFA15C;
+    font-family: inherit;
+    height: 40px;
+    color: rgb(75, 71, 71);
+    border-color:#fc8531;
+
+
+
+}
+
